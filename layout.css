@@ -1,17 +1,29 @@
-body {
-  background-color: #f0f0f0; /* Light gray background */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.logo-text {
-  font-family: 'Arial', sans-serif; /* Adjust the font-family */
-  color: #4a4a4a; /* Gray color for text */
-  font-size: 14px; /* Adjust the size as needed */
-  text-align: center; /* Center-align the text */
-  line-height: 1.6; /* Adjust line height for spacing between lines */
-  margin-top: 20px; /* Adjust top margin to position the text */
+.container {
+  text-align: center;
 }
 
-.logo-text p {
-  margin: 5px 0; /* Adjust margin for better spacing */
+.logo {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 30px;
 }
 
+.contact-info {
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.contact-info p {
+  margin: 3px 0;
+}
