@@ -5,18 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Precision Fleet Support</title>
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+            color: #888888;
+        }
+        .container {
+            text-align: center;
+        }
+        .main-image {
+            max-width: 1500px;
+            max-height: 1000px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 60px;
+            object-fit: contain;
+        }
+        .contact-info {
+            text-align: left;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+        .contact-info p {
+            margin: 0;
+        }
+        .contact-info .email {
+            margin-bottom: 40px;
+        }
+        .contact-info .phone {
+            margin-bottom: 40px;
+        }
+        .contact-info .address {
+            line-height: 1.5;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <img src="assets/pfslogo.png" alt="Precision Fleet Support Logo" class="logo">
+        <img src="assets/pfslogo.png" alt="Precision Fleet Support Logo"  class="main-image">
         <div class="contact-info">
-            <p>info@precisionfleetsupport.com</p>
-            <p>(585) 305-7260</p>
-            <p>113 Cherry St. #65787</p>
-            <p>Seattle, WA</p>
-            <p>98104</p>
+            <p class="email"><a href="mailto:info@precisionfleetsupport.com">info@precisionfleetsupport.com</a></p>            <p class="phone">(585) 305-7260</p>
+            <div class="address">
+                <p>113 Cherry St. #65787</p>
+                <p>Seattle, WA</p>
+                <p>98104</p>
+            </div>
         </div>
     </div>
-</body>
-</html>
